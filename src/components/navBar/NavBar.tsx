@@ -31,11 +31,11 @@ window.addEventListener("resize",showButton);
       <div className="navbar">
         <div className="navbar-container container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            
+            <img src="/connectech-color-smaller.png" />
             ConnecTech
           </Link>
           <div className="menu-icon" onClick={handleClick}>
-            {click ? <FaTimes /> : <FaBars />}
+            {click ? <FaTimes /> : <FaBars  style={{color:"#000"}}   />}
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">

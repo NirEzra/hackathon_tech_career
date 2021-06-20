@@ -8,6 +8,9 @@
     outline: none;
     cursor: pointer;
     white-space: nowrap;
+    
+  
+    
 
 }
 
@@ -15,6 +18,8 @@
     background-color: var(--primary);
     color: #242424;
     border: 1px solid var(--primary);
+    
+    
 }
 
 .btn--outline{
@@ -33,6 +38,7 @@ transition: all 0.3s ease-out;
 .btn--large{
 padding: 12px 26px;
 font-size: 20px;
+
 }
 
 .btn--mobile{
@@ -45,11 +51,14 @@ font-size: 20px;
     padding: 14px 20px;
     border:1px solid #fff;
     transition: all 0.3s ease-out;
+    
 }
 
 .btn--wide{
-    padding: 12px 64px;
+
     font-size: 20px;
+    
+    
 }
 
 .btn--large:hover , .btn--medium:hover,.btn--mobile:hover{
@@ -69,6 +78,9 @@ font-size: 20px;
     background-color: #276afb;
     color:#fff;
     border:none;
+ 
+  
+    
 }
 
 .red{
@@ -81,6 +93,7 @@ font-size: 20px;
     background-color: #242424;
     color:#fff;
     border:none;
+    
 }
 
 .primary:hover{
@@ -110,3 +123,4 @@ padding:8px 16px;
 height:100%;
 width:100%;
 }
+
